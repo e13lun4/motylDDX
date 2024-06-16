@@ -7,7 +7,7 @@ import logoImage from '../assets/images/logoLoader.png'
 const IntroScreen = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('PageViewer')
+      navigation.navigate('Choose')
     }, 1700)
   }, [])
 

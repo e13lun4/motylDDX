@@ -28,17 +28,17 @@ const PageViewerScreen = ({ navigation }) => {
       text: `Тренировки, составленные${'\n'} тренером, отображаются${'\n'} во вкладке "план"`,
       image: planImage,
       backgroundColor: 'rgba(23, 24, 33, 1)',
-      imageWidth: 76,
+      imageWidth: 100,
       imageHeight: 88
     },
     {
       index: 3,
-      title: 'Отмечайте свой прогресс',
-      text: `По мере выполнения своего${'\n'} плана, отмечайте результаты${'\n'} во вкладке "прогресс"`,
+      title: `Смотрите каталог${'\n'} упражнений`,
+      text: `По мере выполнения своего${'\n'} плана,${'\n'} добавляйте новые упражнения`,
       image: progressImage,
       backgroundColor: 'rgba(23, 24, 33, 1)',
       imageWidth: 100,
-      imageHeight: 88
+      imageHeight: 100
     }
   ]
 

@@ -8,6 +8,7 @@ import RegScreen from "../../screens/RegScreen"
 import SuccessfullRegScreen from "../../screens/SuccessfullRegScreen"
 import RecoveryPasswordScreen from "../../screens/RecoveryPasswordScreen"
 import SuccessfullRecScreen from "../../screens/SuccessfullRecScreen"
+import ChooseScreen from "../../screens/ChooseScreen"
 
 const Stack = createNativeStackNavigator()
 
@@ -17,6 +18,7 @@ const AuthNavigation = () => {
       initialRouteName="Intro"
     >
       <Stack.Screen name="Intro" component={IntroScreen} options={{ headerShown: false }}/>
+      <Stack.Screen name="Choose" component={ChooseScreen} options={{ header: () => <Header/> }}/>
       <Stack.Screen name="PageViewer" component={PageViewerScreen} options={{ header: () => <Header/> }}/>
       <Stack.Screen name="Auth" component={AuthScreen} options={{ header: () => <Header /> }}/>
       <Stack.Screen name="Reg" component={RegScreen} options={{ header: () => <Header /> }}/>

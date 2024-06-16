@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from "react-native"
 const PlanScreen = () => {
   return(
     <View style={styles.container}>
-      <Text style={styles.headerText}>План тренировок</Text>
+      <Text style={styles.headerText}>Прогресс</Text>
     </View>
   )
 }

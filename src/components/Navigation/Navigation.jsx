@@ -6,9 +6,6 @@ import { ToastProvider } from 'react-native-toasts-notifications'
 import AuthNavigation from "./AuthNavigation"
 import LoggedNavigation from "./LoggedNavigation"
 
-const Stack = createNativeStackNavigator()
-const Tab = createBottomTabNavigator()
-
 const Navigation = () => {
   const insets = useSafeAreaInsets()
   const isAuth = true
